@@ -1,0 +1,412 @@
+{
+  "beslenme": [
+    {
+      "id": 1,
+      "soru": "Günde kaç öğün yemek yemek sağlıklıdır?",
+      "secenekler": ["2 öğün", "3-4 öğün", "1 öğün", "5+ öğün"],
+      "dogruCevap": 1,
+      "aciklama": "Düzenli 3 ana öğün ve 2 ara öğün ile metabolizma dengeli çalışır ve sağlıklı kilo kontrolü sağlanır.",
+      "zorluk": "kolay"
+    },
+    {
+      "id": 2,
+      "soru": "Vücudumuzun yüzde kaçı sudan oluşur?",
+      "secenekler": ["30-40%", "50-60%", "60-70%", "80-90%"],
+      "dogruCevap": 2,
+      "aciklama": "İnsan vücudunun %60-70'i sudan oluşur. Su, vücut için hayati önem taşır.",
+      "zorluk": "orta"
+    },
+    {
+      "id": 3,
+      "soru": "Hangisi sağlıklı bir kahvaltı örneğidir?",
+      "secenekler": ["Peynir, zeytin, domates, ekmek, süt", "Kola ve kek", "Cips ve çikolata", "Hamburger ve patates kızartması"],
+      "dogruCevap": 0,
+      "aciklama": "Kahvaltı protein, karbonhidrat, vitamin ve mineraller içermelidir. Peynir, zeytin, sebze ve ekmekle dengeli bir kahvaltı yapılır.",
+      "zorluk": "kolay"
+    },
+    {
+      "id": 4,
+      "soru": "Günde en az kaç bardak su içmeliyiz?",
+      "secenekler": ["2-3 bardak", "4-5 bardak", "6-8 bardak", "10-12 bardak"],
+      "dogruCevap": 2,
+      "aciklama": "Günde en az 6-8 bardak (1.5-2 litre) su içmek vücut fonksiyonları için önemlidir.",
+      "zorluk": "kolay"
+    },
+    {
+      "id": 5,
+      "soru": "Hangisi C vitamini bakımından zengindir?",
+      "secenekler": ["Et", "Portakal", "Ekmek", "Yağ"],
+      "dogruCevap": 1,
+      "aciklama": "Turunçgiller, kivi, çilek gibi meyveler C vitamini bakımından zengindir. C vitamini bağışıklık sistemini güçlendirir.",
+      "zorluk": "kolay"
+    },
+    {
+      "id": 6,
+      "soru": "Tabağımızın yarısını ne ile doldurmalıyız?",
+      "secenekler": ["Et", "Sebze ve meyve", "Ekmek", "Tatlı"],
+      "dogruCevap": 1,
+      "aciklama": "Sağlıklı tabak modelinde tabağın yarısı sebze ve meyvelerle doldurulmalıdır.",
+      "zorluk": "orta"
+    },
+    {
+      "id": 7,
+      "soru": "Fazla şeker tüketimi hangi sorunlara yol açar?",
+      "secenekler": ["Diş çürükleri ve obezite", "Daha hızlı büyüme", "Daha iyi görme", "Daha güçlü kemikler"],
+      "dogruCevap": 0,
+      "aciklama": "Aşırı şeker tüketimi diş çürüklerine, obeziteye ve diyabet gibi hastalıklara yol açabilir.",
+      "zorluk": "kolay"
+    },
+    {
+      "id": 8,
+      "soru": "Hangi besin grubu kemik sağlığı için en önemlidir?",
+      "secenekler": ["Meyve", "Süt ve süt ürünleri", "Sebze", "Tahıllar"],
+      "dogruCevap": 1,
+      "aciklama": "Süt ve süt ürünleri kalsiyum açısından zengindir ve kemik sağlığı için çok önemlidir.",
+      "zorluk": "kolay"
+    },
+    {
+      "id": 9,
+      "soru": "Demir hangi besinlerde bulunur?",
+      "secenekler": ["Yeşil yapraklı sebzeler ve kırmızı et", "Şeker ve tatlılar", "Gazlı içecekler", "Cips ve kek"],
+      "dogruCevap": 0,
+      "aciklama": "Demir, kırmızı et, tavuk, balık, kurubaklagiller ve yeşil yapraklı sebzelerde bulunur. Kan yapımı için gereklidir.",
+      "zorluk": "orta"
+    },
+    {
+      "id": 10,
+      "soru": "Fast food neden sağlıksızdır?",
+      "secenekler": ["Çok lezzetli olduğu için", "Yüksek kalori, yağ ve tuz içerdiği için", "Ucuz olduğu için", "Hızlı hazırlandığı için"],
+      "dogruCevap": 1,
+      "aciklama": "Fast food yüksek kalori, doymuş yağ, tuz ve şeker içerir, besin değeri düşüktür. Sık tüketimi obezite ve kalp hastalıklarına yol açar.",
+      "zorluk": "orta"
+    }
+  ],
+  "hijyen": [
+    {
+      "id": 11,
+      "soru": "Eller ne kadar süre yıkanmalıdır?",
+      "secenekler": ["5 saniye", "10 saniye", "En az 20 saniye", "1 dakika"],
+      "dogruCevap": 2,
+      "aciklama": "Etkili el yıkama için eller sabun ve suyla en az 20 saniye yıkanmalıdır.",
+      "zorluk": "kolay"
+    },
+    {
+      "id": 12,
+      "soru": "Dişler günde kaç kez fırçalanmalıdır?",
+      "secenekler": ["Haftada 1", "Günde 1", "Günde en az 2", "Ayda 1"],
+      "dogruCevap": 2,
+      "aciklama": "Dişler günde en az 2 kez, sabah ve akşam, en az 2 dakika fırçalanmalıdır.",
+      "zorluk": "kolay"
+    },
+    {
+      "id": 13,
+      "soru": "Hangi durumlarda mutlaka el yıkamalıyız?",
+      "secenekler": ["Sadece akşam yemeğinden önce", "Tuvaletten sonra ve yemekten önce-sonra", "Sadece sabahları", "Hiç gerek yok"],
+      "dogruCevap": 1,
+      "aciklama": "Tuvaletten sonra, yemekten önce ve sonra, dışarıdan geldiğimizde mutlaka el yıkamalıyız.",
+      "zorluk": "kolay"
+    },
+    {
+      "id": 14,
+      "soru": "Diş ipi ne sıklıkla kullanılmalıdır?",
+      "secenekler": ["Hiç", "Haftada 1", "Günde 1", "Ayda 1"],
+      "dogruCevap": 2,
+      "aciklama": "Diş ipi günde en az 1 kez, özellikle yatmadan önce kullanılmalıdır. Diş aralarındaki artıkları temizler.",
+      "zorluk": "orta"
+    },
+    {
+      "id": 15,
+      "soru": "Haftada en az kaç kez banyo yapmalıyız?",
+      "secenekler": ["Ayda 1", "Haftada 1", "Haftada 2-3", "Yılda 1"],
+      "dogruCevap": 2,
+      "aciklama": "Vücut temizliği için haftada en az 2-3 kez banyo yapılmalıdır. Spor sonrası mutlaka duş alınmalıdır.",
+      "zorluk": "kolay"
+    },
+    {
+      "id": 16,
+      "soru": "Tırnaklar neden kısa tutulmalıdır?",
+      "secenekler": ["Daha güzel görünsün diye", "Tırnak altında mikrop birikmemesi için", "Renk almasın diye", "Büyümemesi için"],
+      "dogruCevap": 1,
+      "aciklama": "Uzun tırnakların altında mikrop ve kir birikir. Tırnaklar kısa ve temiz tutulmalıdır.",
+      "zorluk": "orta"
+    },
+    {
+      "id": 17,
+      "soru": "Oda günde kaç kez havalandırılmalıdır?",
+      "secenekler": ["Hiç", "1 kez", "En az 2 kez", "Ayda 1"],
+      "dogruCevap": 2,
+      "aciklama": "Oda günde en az 2 kez havalandırılmalıdır. Temiz hava almak sağlık için önemlidir.",
+      "zorluk": "kolay"
+    },
+    {
+      "id": 18,
+      "soru": "Diş fırçası ne sıklıkla değiştirilmelidir?",
+      "secenekler": ["Hiç", "Yılda 1", "3-4 ayda bir", "10 yılda 1"],
+      "dogruCevap": 2,
+      "aciklama": "Diş fırçası 3-4 ayda bir veya kılları eskidiğinde değiştirilmelidir.",
+      "zorluk": "orta"
+    },
+    {
+      "id": 19,
+      "soru": "El yıkama hastalık bulaşmasını yüzde kaç azaltır?",
+      "secenekler": ["%20", "%40", "%80", "%10"],
+      "dogruCevap": 2,
+      "aciklama": "Doğru el yıkama hastalık bulaşmasını %80 oranında azaltır. En etkili korunma yöntemidir.",
+      "zorluk": "zor"
+    },
+    {
+      "id": 20,
+      "soru": "Havlu kullanımında dikkat edilmesi gereken nedir?",
+      "secenekler": ["Herkesle paylaşılmalı", "Kendi havlumuz kullanılmalı", "Yıkanmamalı", "Rengi önemli"],
+      "dogruCevap": 1,
+      "aciklama": "Havlular kişiye özeldir, paylaşılmamalıdır. Mikrop bulaşmasını önlemek için kendi havlunuz kullanılmalıdır.",
+      "zorluk": "kolay"
+    }
+  ],
+  "bagisiklik": [
+    {
+      "id": 21,
+      "soru": "Bağışıklık sisteminin görevi nedir?",
+      "secenekler": ["Sindirim yapmak", "Vücudu hastalıklardan korumak", "Nefes almak", "Hareket ettirmek"],
+      "dogruCevap": 1,
+      "aciklama": "Bağışıklık sistemi vücuda giren zararlı mikrop ve virüsleri tanır ve onlarla savaşarak hastalıklardan korur.",
+      "zorluk": "kolay"
+    },
+    {
+      "id": 22,
+      "soru": "Aşılar neden yapılır?",
+      "secenekler": ["Hasta olmak için", "Hastalıklara karşı bağışıklık kazanmak için", "Büyümek için", "Zayıflamak için"],
+      "dogruCevap": 1,
+      "aciklama": "Aşılar vücudun hastalıklara karşı bağışıklık kazanmasını sağlar ve salgın hastalıkları önler.",
+      "zorluk": "kolay"
+    },
+    {
+      "id": 23,
+      "soru": "Beyaz kan hücreleri ne yapar?",
+      "secenekler": ["Oksijen taşır", "Mikroplarla savaşır", "Sindirim yapar", "Hareket sağlar"],
+      "dogruCevap": 1,
+      "aciklama": "Beyaz kan hücreleri bağışıklık sisteminin askerleridir. Mikropları tanır, yok eder ve vücudu korur.",
+      "zorluk": "orta"
+    },
+    {
+      "id": 24,
+      "soru": "Hangisi bağışıklık sistemini güçlendirir?",
+      "secenekler": ["Sağlıklı beslenme ve uyku", "Fast food yemek", "Hareketsiz kalmak", "Az su içmek"],
+      "dogruCevap": 0,
+      "aciklama": "Dengeli beslenme, yeterli uyku, düzenli egzersiz ve hijyen kurallarına uymak bağışıklık sistemini güçlendirir.",
+      "zorluk": "kolay"
+    },
+    {
+      "id": 25,
+      "soru": "Virüs ve bakteri arasındaki fark nedir?",
+      "secenekler": ["Hiç fark yok", "Virüsler daha küçüktür", "Bakteriler daha zararlıdır", "İkisi de aynıdır"],
+      "dogruCevap": 1,
+      "aciklama": "Virüsler bakterilerden çok daha küçüktür ve sadece canlı hücre içinde çoğalabilirler. Antibiyotikler virüslere etki etmez.",
+      "zorluk": "zor"
+    },
+    {
+      "id": 26,
+      "soru": "C vitamini bağışıklık için neden önemlidir?",
+      "secenekler": ["Renk verir", "Bağışıklık sistemini güçlendirir", "Zayıflatır", "Hiç etkisi yok"],
+      "dogruCevap": 1,
+      "aciklama": "C vitamini beyaz kan hücrelerinin çalışmasını destekler ve bağışıklık sistemini güçlendirir.",
+      "zorluk": "orta"
+    },
+    {
+      "id": 27,
+      "soru": "Maske kullanımı neden önemlidir?",
+      "secenekler": ["Moda olduğu için", "Hastalık bulaşmasını önlemek için", "Soğuktan korunmak için", "Hiç gerekli değil"],
+      "dogruCevap": 1,
+      "aciklama": "Maske, öksürük ve hapşırma ile yayılan damlacıkları engeller ve hastalık bulaşmasını önler.",
+      "zorluk": "kolay"
+    },
+    {
+      "id": 28,
+      "soru": "Antikor nedir?",
+      "secenekler": ["Bir besin", "Bağışıklık sistemi tarafından üretilen koruyucu protein", "Bir vitamin", "Bir hastalık"],
+      "dogruCevap": 1,
+      "aciklama": "Antikorlar, bağışıklık sistemi tarafından üretilen ve hastalıklara karşı koruyan özel proteinlerdir.",
+      "zorluk": "zor"
+    },
+    {
+      "id": 29,
+      "soru": "Yeterli uyku bağışıklığı nasıl etkiler?",
+      "secenekler": ["Zayıflatır", "Güçlendirir", "Etkilemez", "Hasta eder"],
+      "dogruCevap": 1,
+      "aciklama": "Yeterli uyku (7-9 saat) bağışıklık sisteminin güçlü kalmasını sağlar. Uykusuzluk hastalıklara karşı savunmayı zayıflatır.",
+      "zorluk": "kolay"
+    },
+    {
+      "id": 30,
+      "soru": "Sosyal mesafe neden önemlidir?",
+      "secenekler": ["İnsanlardan nefret ettiğimiz için", "Hastalık bulaşma riskini azaltmak için", "Daha hızlı yürümek için", "Hiç gerekli değil"],
+      "dogruCevap": 1,
+      "aciklama": "En az 1-2 metre sosyal mesafe, özellikle salgın dönemlerinde hastalık bulaşma riskini önemli ölçüde azaltır.",
+      "zorluk": "kolay"
+    }
+  ],
+  "egzersiz": [
+    {
+      "id": 31,
+      "soru": "Çocuklar günde en az kaç dakika fiziksel aktivite yapmalıdır?",
+      "secenekler": ["10 dakika", "30 dakika", "60 dakika", "120 dakika"],
+      "dogruCevap": 2,
+      "aciklama": "Çocuklar günde en az 60 dakika orta-yoğun fiziksel aktivite yapmalıdır.",
+      "zorluk": "kolay"
+    },
+    {
+      "id": 32,
+      "soru": "Hangisi düzenli sporun faydalarından DEĞİLDİR?",
+      "secenekler": ["Kemikleri güçlendirir", "Kalbi sağlıklı tutar", "Stres azaltır", "Bağımlılık yapar"],
+      "dogruCevap": 3,
+      "aciklama": "Düzenli spor kemik ve kas sağlığını artırır, kalbi güçlendirir, stresi azaltır. Sağlıklı bir alışkanlıktır.",
+      "zorluk": "kolay"
+    },
+    {
+      "id": 33,
+      "soru": "Spor yapmadan önce neden ısınma yapmalıyız?",
+      "secenekler": ["Zaman geçirmek için", "Sakatlıkları önlemek için", "Yorulmamak için", "Hiç gerek yok"],
+      "dogruCevap": 1,
+      "aciklama": "Isınma kasları ve eklemleri spora hazırlar, sakatlık riskini azaltır. 10-15 dakika ısınma önerilir.",
+      "zorluk": "orta"
+    },
+    {
+      "id": 34,
+      "soru": "Ekran başında günde en fazla kaç saat kalınmalıdır?",
+      "secenekler": ["8 saat", "6 saat", "2 saat", "Sınırsız"],
+      "dogruCevap": 2,
+      "aciklama": "Ekran süresi günde 2 saatle sınırlandırılmalıdır. Fazla ekran zamanı göz sağlığına zarar verir ve hareketsizliğe yol açar.",
+      "zorluk": "kolay"
+    },
+    {
+      "id": 35,
+      "soru": "20-20-20 kuralı nedir?",
+      "secenekler": ["20 dakika ders, 20 dakika dinlenme, 20 sayfa okuma", "Her 20 dakikada 20 saniye 20 feet uzağa bakma", "20 kez şınav, 20 kez mekik, 20 kez squat", "Hiçbiri"],
+      "dogruCevap": 1,
+      "aciklama": "20-20-20 kuralı: Ekran başındayken her 20 dakikada bir 20 saniye boyunca 20 feet (6 metre) uzağa bakmak göz yorgunluğunu önler.",
+      "zorluk": "zor"
+    },
+    {
+      "id": 36,
+      "soru": "Hangisi kalp sağlığı için en iyi egzersizdir?",
+      "secenekler": ["Yürüyüş, koşu, yüzme gibi aerobik egzersizler", "Sadece oturmak", "Sadece uyumak", "Fast food yemek"],
+      "dogruCevap": 0,
+      "aciklama": "Yürüyüş, koşu, bisiklet, yüzme gibi aerobik egzersizler kalp kasını güçlendirir ve damar sağlığını korur.",
+      "zorluk": "kolay"
+    },
+    {
+      "id": 37,
+      "soru": "Spor sonrası neden soğuma yapmalıyız?",
+      "secenekler": ["Vücudu yavaşça normale döndürmek için", "Hasta olmamak için", "Üşümemek için", "Hiç gerek yok"],
+      "dogruCevap": 0,
+      "aciklama": "Soğuma, kalp atışını ve nefes alışını yavaşça normale döndürür, kas ağrısını azaltır.",
+      "zorluk": "orta"
+    },
+    {
+      "id": 38,
+      "soru": "Haftada kaç gün egzersiz yapmalıyız?",
+      "secenekler": ["Ayda 1", "Haftada 1", "Haftada 3-5", "Yılda 1"],
+      "dogruCevap": 2,
+      "aciklama": "Haftada en az 3-5 gün düzenli egzersiz yapılmalıdır. Dinlenme günleri de önemlidir.",
+      "zorluk": "kolay"
+    },
+    {
+      "id": 39,
+      "soru": "Egzersiz yaparken ne içmeliyiz?",
+      "secenekler": ["Kola", "Kahve", "Su", "Meyve suyu"],
+      "dogruCevap": 2,
+      "aciklama": "Egzersiz sırasında ve sonrasında su içmek çok önemlidir. Vücut sıvı kaybını telafi etmek gerekir.",
+      "zorluk": "kolay"
+    },
+    {
+      "id": 40,
+      "soru": "Düzenli egzersiz uyku kalitesini nasıl etkiler?",
+      "secenekler": ["Uykuyu bozar", "Uyku kalitesini artırır", "Hiç etkilemez", "Uyku getirmez"],
+      "dogruCevap": 1,
+      "aciklama": "Düzenli fiziksel aktivite uyku kalitesini artırır, daha kolay uyumayı sağlar ve dinlenmeyi iyileştirir.",
+      "zorluk": "orta"
+    }
+  ],
+  "zararli": [
+    {
+      "id": 41,
+      "soru": "Sigara hangi organa en çok zarar verir?",
+      "secenekler": ["Mide", "Akciğer", "Bacak", "Kulak"],
+      "dogruCevap": 1,
+      "aciklama": "Sigara öncelikle akciğerlere zarar verir, akciğer kanseri ve solunum hastalıklarına yol açar.",
+      "zorluk": "kolay"
+    },
+    {
+      "id": 42,
+      "soru": "İkinci el duman nedir?",
+      "secenekler": ["Başkasının içtiği sigaradan çıkan duman", "Arabadan çıkan duman", "Sobadan çıkan duman", "Hiçbiri"],
+      "dogruCevap": 0,
+      "aciklama": "İkinci el duman, başkalarının içtiği sigaradan çıkan dumandır ve pasif içicilik olarak adlandırılır. Çok zararlıdır.",
+      "zorluk": "orta"
+    },
+    {
+      "id": 43,
+      "soru": "Fazla gazlı içecek tüketimi neye yol açar?",
+      "secenekler": ["Diş çürükleri ve obezite", "Daha hızlı koşma", "Daha iyi görme", "Daha uzun boylanma"],
+      "dogruCevap": 0,
+      "aciklama": "Gazlı içecekler yüksek şeker içerir. Diş çürüklerine, obeziteye ve diyabete yol açabilir.",
+      "zorluk": "kolay"
+    },
+    {
+      "id": 44,
+      "soru": "Uyuşturucu madde kullanımı beyne nasıl etki eder?",
+      "secenekler": ["Geliştirir", "Zarar verir ve bağımlılık yapar", "Hiç etkilemez", "Güçlendirir"],
+      "dogruCevap": 1,
+      "aciklama": "Uyuşturucu maddeler beyin gelişimine ciddi zarar verir, bağımlılık yapar ve hayatı mahveder.",
+      "zorluk": "kolay"
+    },
+    {
+      "id": 45,
+      "soru": "Fast food yemeklerde en çok hangi maddeler bulunur?",
+      "secenekler": ["Vitamin ve mineral", "Yağ, tuz ve şeker", "Protein ve lif", "Su"],
+      "dogruCevap": 1,
+      "aciklama": "Fast food yüksek yağ, tuz ve şeker içerir. Besin değeri düşüktür ve sağlığa zararlıdır.",
+      "zorluk": "kolay"
+    },
+    {
+      "id": 46,
+      "soru": "Sigaranın içinde kaç çeşit zararlı kimyasal vardır?",
+      "secenekler": ["10", "100", "1000", "4000'den fazla"],
+      "dogruCevap": 3,
+      "aciklama": "Sigara dumanında 4000'den fazla kimyasal madde bulunur ve bunların birçoğu kanserojendir (kanser yapıcı).",
+      "zorluk": "zor"
+    },
+    {
+      "id": 47,
+      "soru": "Alkol çocuklar için neden çok zararlıdır?",
+      "secenekler": ["Beyin gelişimini engeller", "Hiç zararlı değil", "Sadece tadı kötü", "Rengi güzel değil"],
+      "dogruCevap": 0,
+      "aciklama": "Alkol özellikle gelişim çağındaki çocuklar için çok tehlikelidir. Beyin gelişimini engeller ve bağımlılık yapar.",
+      "zorluk": "kolay"
+    },
+    {
+      "id": 48,
+      "soru": "Aşırı tuz tüketimi hangi hastalığa yol açar?",
+      "secenekler": ["Alerjiye", "Yüksek tansiyona", "Diş çürüğüne", "Soğuk algınlığına"],
+      "dogruCevap": 1,
+      "aciklama": "Fazla tuz tüketimi yüksek tansiyon, kalp ve böbrek hastalıklarına yol açabilir. Günlük tuz miktarı 5 gramı geçmemelidir.",
+      "zorluk": "orta"
+    },
+    {
+      "id": 49,
+      "soru": "Hangi alışkanlık bağımlılık yapmaz?",
+      "secenekler": ["Sigara", "Uyuşturucu", "Düzenli egzersiz", "Alkol"],
+      "dogruCevap": 2,
+      "aciklama": "Düzenli egzersiz sağlıklı bir alışkanlıktır ve bağımlılık yapmaz. Aksine zararlı bağımlılıklardan uzak tutmaya yardımcı olur.",
+      "zorluk": "kolay"
+    },
+    {
+      "id": 50,
+      "soru": "Sağlıklı yaşam için en önemli karar nedir?",
+      "secenekler": ["Zararlı alışkanlıklardan uzak durmak", "Çok para kazanmak", "Çok televizyon izlemek", "Çok oyun oynamak"],
+      "dogruCevap": 0,
+      "aciklama": "Sigara, alkol, uyuşturucu gibi zararlı alışkanlıklardan uzak durmak, sağlıklı beslenme ve düzenli egzersiz sağlıklı yaşamın temelidir.",
+      "zorluk": "kolay"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "oyuncuAdi": "Ahmet Y.",
+    "skor": 15750,
+    "seviye": 10,
+    "tarih": "2026-02-01"
+  },
+  {
+    "oyuncuAdi": "Zeynep K.",
+    "skor": 14200,
+    "seviye": 9,
+    "tarih": "2026-02-02"
+  },
+  {
+    "oyuncuAdi": "Mehmet A.",
+    "skor": 12890,
+    "seviye": 8,
+    "tarih": "2026-02-03"
+  },
+  {
+    "oyuncuAdi": "Ayşe D.",
+    "skor": 11500,
+    "seviye": 7,
+    "tarih": "2026-02-03"
+  },
+  {
+    "oyuncuAdi": "Can B.",
+    "skor": 10350,
+    "seviye": 7,
+    "tarih": "2026-02-04"
+  }
+]

@@ -1,0 +1,154 @@
+{
+  "seviyeler": [
+    {
+      "id": 1,
+      "isim": "Dengeli Beslenme - Giriş",
+      "tip": "beslenme",
+      "zorluk": "kolay",
+      "obje Sayisi": 10,
+      "dusmanSayisi": 3,
+      "sure": 180,
+      "aciklama": "Sağlıklı besinleri topla, zararlı olanlardan kaçın!",
+      "hedefler": [
+        "10 sağlıklı besin topla",
+        "Fast food'dan kaçın",
+        "Süreyi doldurmadan bitir"
+      ]
+    },
+    {
+      "id": 2,
+      "isim": "Dengeli Beslenme - Orta",
+      "tip": "beslenme",
+      "zorluk": "orta",
+      "objeSayisi": 15,
+      "dusmanSayisi": 5,
+      "sure": 150,
+      "aciklama": "Daha fazla sağlıklı besin topla, daha az sürede!",
+      "hedefler": [
+        "15 sağlıklı besin topla",
+        "5 mikroptan kaçın",
+        "2.5 dakikada bitir"
+      ]
+    },
+    {
+      "id": 3,
+      "isim": "Kişisel Hijyen - Giriş",
+      "tip": "hijyen",
+      "zorluk": "kolay",
+      "objeSayisi": 12,
+      "dusmanSayisi": 4,
+      "sure": 180,
+      "aciklama": "Hijyen ürünlerini topla, mikropları yok et!",
+      "hedefler": [
+        "12 hijyen ürünü topla",
+        "Mikroplardan kaçın",
+        "Temiz kal"
+      ]
+    },
+    {
+      "id": 4,
+      "isim": "Kişisel Hijyen - Orta",
+      "tip": "hijyen",
+      "zorluk": "orta",
+      "objeSayisi": 15,
+      "dusmanSayisi": 6,
+      "sure": 150,
+      "aciklama": "Daha fazla mikrop, daha az süre!",
+      "hedefler": [
+        "15 hijyen ürünü topla",
+        "6 mikroptan kaçın",
+        "Hızlı ol"
+      ]
+    },
+    {
+      "id": 5,
+      "isim": "Bağışıklık Sistemi - Giriş",
+      "tip": "bagisiklik",
+      "zorluk": "orta",
+      "objeSayisi": 12,
+      "dusmanSayisi": 5,
+      "sure": 180,
+      "aciklama": "Vitaminleri topla, bağışıklığını güçlendir!",
+      "hedefler": [
+        "Tüm vitamin kapsüllerini topla",
+        "Virüslerden kaçın",
+        "Sağlıklı kal"
+      ]
+    },
+    {
+      "id": 6,
+      "isim": "Bağışıklık Sistemi - Orta",
+      "tip": "bagisiklik",
+      "zorluk": "zor",
+      "objeSayisi": 18,
+      "dusmanSayisi": 7,
+      "sure": 150,
+      "aciklama": "Virüs salgını! Tüm vitaminleri topla!",
+      "hedefler": [
+        "18 vitamin kapsülü topla",
+        "7 virüsten kaçın",
+        "Combo yap"
+      ]
+    },
+    {
+      "id": 7,
+      "isim": "Fiziksel Aktivite - Giriş",
+      "tip": "egzersiz",
+      "zorluk": "kolay",
+      "objeSayisi": 10,
+      "dusmanSayisi": 4,
+      "sure": 180,
+      "aciklama": "Spor ekipmanlarını topla, aktif kal!",
+      "hedefler": [
+        "Spor ekipmanlarını topla",
+        "Hareketsizlikten kaçın",
+        "Enerjik ol"
+      ]
+    },
+    {
+      "id": 8,
+      "isim": "Fiziksel Aktivite - Orta",
+      "tip": "egzersiz",
+      "zorluk": "orta",
+      "objeSayisi": 15,
+      "dusmanSayisi": 6,
+      "sure": 150,
+      "aciklama": "Hızlı hareket et, tüm ekipmanları topla!",
+      "hedefler": [
+        "15 spor ekipmanı topla",
+        "Tembel mikroplardan kaçın",
+        "Hızlı bitir"
+      ]
+    },
+    {
+      "id": 9,
+      "isim": "Zararlı Alışkanlıklar - Zor",
+      "tip": "zararli",
+      "zorluk": "zor",
+      "objeSayisi": 20,
+      "dusmanSayisi": 8,
+      "sure": 120,
+      "aciklama": "Zararlı alışkanlıklardan kaçın, sağlıklı seçimler yapın!",
+      "hedefler": [
+        "Sağlıklı seçimleri topla",
+        "Sigara ve alkol simgelerinden kaçın",
+        "Kısa sürede bitir"
+      ]
+    },
+    {
+      "id": 10,
+      "isim": "Final Seviyesi - Sağlık Şampiyonu",
+      "tip": "beslenme",
+      "zorluk": "cok_zor",
+      "objeSayisi": 25,
+      "dusmanSayisi": 10,
+      "sure": 120,
+      "aciklama": "Son görev! Tüm bilgilerini kullan ve şampiyon ol!",
+      "hedefler": [
+        "25 sağlık objesi topla",
+        "10 tehlikeden kaçın",
+        "Mükemmel skor al"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,269 @@
+{
+  "konular": [
+    {
+      "id": "beslenme",
+      "baslik": "Dengeli Beslenme",
+      "ikon": "🥗",
+      "renk": "#4CAF50",
+      "aciklama": "Sağlıklı ve dengeli beslenme, büyüme ve gelişmenin temel taşıdır.",
+      "altKonular": [
+        {
+          "id": "besin_gruplari",
+          "baslik": "Besin Grupları",
+          "icerik": "Sağlıklı beslenmek için 4 temel besin grubundan dengeli olarak beslenmeliyiz: Süt ve Süt Ürünleri, Et-Tavuk-Balık-Yumurta-Kurubaklagiller, Sebze ve Meyveler, Ekmek ve Tahıllar.",
+          "detaylar": [
+            "Süt grubu: Kemik ve diş sağlığı için kalsiyum sağlar",
+            "Protein grubu: Kas gelişimi ve onarımı için gereklidir",
+            "Sebze-meyve: Vitamin ve mineral kaynağıdır",
+            "Tahıllar: Enerji ihtiyacımızı karşılar"
+          ]
+        },
+        {
+          "id": "ogun_duzeni",
+          "baslik": "Öğün Düzeni",
+          "icerik": "Günde 3 ana öğün (kahvaltı, öğle, akşam) ve 2 ara öğün (kuşluk, ikindi) tüketmek metabolizmayı düzenli tutar ve sağlıklı kilo kontrolü sağlar.",
+          "detaylar": [
+            "Kahvaltı: Günün en önemli öğünüdür",
+            "Ara öğünler: Kan şekerini dengede tutar",
+            "Akşam yemeği: Hafif ve erken yenmelidir",
+            "Porsiyonlar: Tabağın yarısı sebze olmalıdır"
+          ]
+        },
+        {
+          "id": "su_tuketimi",
+          "baslik": "Su Tüketimi",
+          "icerik": "Vücudumuzun %60-70'i sudan oluşur. Günde en az 6-8 bardak su içmeliyiz. Su, vücut sıcaklığını düzenler, besinlerin taşınmasını sağlar ve toksinlerin atılmasına yardımcı olur.",
+          "detaylar": [
+            "Günlük ihtiyaç: 1.5-2 litre",
+            "Spor yaparken daha fazla su içilmeli",
+            "Meyve suyu yerine su tercih edilmeli",
+            "Su içmek cildi sağlıklı tutar"
+          ]
+        },
+        {
+          "id": "seker_tuz",
+          "baslik": "Şeker ve Tuz Kontrolü",
+          "icerik": "Fazla şeker tüketimi obezite ve diş çürüklerine, fazla tuz ise yüksek tansiyona yol açar. Günlük şeker alımı 25-30 gramı, tuz alımı 5 gramı geçmemelidir.",
+          "detaylar": [
+            "Gazlı içeceklerden kaçının",
+            "Tuzluk masaya konmamalı",
+            "Etiketleri okuyun",
+            "Doğal tatlandırıcıları tercih edin"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hijyen",
+      "baslik": "Kişisel Hijyen",
+      "ikon": "🧼",
+      "renk": "#2196F3",
+      "aciklama": "Kişisel hijyen, hastalıklardan korunmanın en etkili yoludur.",
+      "altKonular": [
+        {
+          "id": "el_yikama",
+          "baslik": "El Yıkama",
+          "icerik": "Eller, mikropların en çok bulunduğu yerlerdir. Elleri sabun ve suyla en az 20 saniye yıkamak, hastalık bulaşmasını %80 oranında azaltır.",
+          "detaylar": [
+            "Tuvaletten sonra mutlaka el yıkayın",
+            "Yemekten önce ve sonra el yıkayın",
+            "Dışarıdan eve geldiğinizde el yıkayın",
+            "Parmak araları ve tırnaklar unutulmamalı"
+          ]
+        },
+        {
+          "id": "dis_sagligi",
+          "baslik": "Diş Sağlığı",
+          "icerik": "Dişler günde en az 2 kez, sabah kahvaltıdan sonra ve gece yatmadan önce, en az 2 dakika fırçalanmalıdır. Diş ipi kullanımı da önemlidir.",
+          "detaylar": [
+            "Fırçalama tekniği: Yukarıdan aşağıya",
+            "Diş ipi günde 1 kez kullanılmalı",
+            "6 ayda bir diş kontrolü",
+            "Şekerli gıdalardan sonra ağız çalkalayın"
+          ]
+        },
+        {
+          "id": "banyo",
+          "baslik": "Vücut Temizliği",
+          "icerik": "Düzenli banyo yapmak, cildin sağlıklı kalmasını, ter kokusunun önlenmesini ve mikroplardan korunmayı sağlar. Haftada en az 2-3 kez banyo yapılmalıdır.",
+          "detaylar": [
+            "Spor sonrası duş alın",
+            "Kendi havlunuzu kullanın",
+            "Tırnaklar kısa tutulmalı",
+            "Saçlar düzenli yıkanmalı"
+          ]
+        },
+        {
+          "id": "cevre_hijyeni",
+          "baslik": "Çevre Hijyeni",
+          "icerik": "Yaşadığımız ortamın temiz olması, hastalıklardan korunmak için önemlidir. Oda düzenli havalandırılmalı, eşyalar temiz tutulmalıdır.",
+          "detaylar": [
+            "Oda günde 2 kez havalandırılmalı",
+            "Çöpler düzenli atılmalı",
+            "Yataklar düzenli değiştirilmeli",
+            "Ortak kullanım alanları temiz tutulmalı"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bagisiklik",
+      "baslik": "Bağışıklık Sistemi",
+      "ikon": "🛡️",
+      "renk": "#9C27B0",
+      "aciklama": "Bağışıklık sistemi vücudu hastalıklardan korur.",
+      "altKonular": [
+        {
+          "id": "bagisiklik_nasil_calisir",
+          "baslik": "Bağışıklık Nasıl Çalışır",
+          "icerik": "Bağışıklık sistemi, vücuda giren zararlı mikrop ve virüsleri tanır ve onlarla savaşır. Beyaz kan hücreleri, antikor üreterek hastalıklara karşı savunma yapar.",
+          "detaylar": [
+            "Beyaz kan hücreleri mikropları tanır",
+            "Antikorlar hastalıklara karşı korur",
+            "Bağışıklık hafızası oluşur",
+            "Sağlıklı yaşam bağışıklığı güçlendirir"
+          ]
+        },
+        {
+          "id": "asil ar",
+          "baslik": "Aşıların Önemi",
+          "icerik": "Aşılar, vücudun hastalıklara karşı bağışıklık kazanmasını sağlar. Aşı takvimi düzenli takip edilmelidir. Aşılar sayesinde birçok ölümcül hastalık önlenmiştir.",
+          "detaylar": [
+            "Aşı takvimi önemlidir",
+            "Toplum bağışıklığı sağlar",
+            "Yan etkileri minimumdur",
+            "Salgın hastalıkları önler"
+          ]
+        },
+        {
+          "id": "hastaliktan_korunma",
+          "baslik": "Hastalıklardan Korunma",
+          "icerik": "El yıkama, maske kullanımı, sosyal mesafe ve doğru beslenme bağışıklık sistemini güçlendirir ve hastalıklardan korur.",
+          "detaylar": [
+            "Hasta insanlardan uzak durun",
+            "Öksürürken ağız kapatılmalı",
+            "Gıdalar iyi pişirilmeli",
+            "Temiz su içilmeli"
+          ]
+        },
+        {
+          "id": "mikrop_virus",
+          "baslik": "Mikrop ve Virüsler",
+          "icerik": "Mikroplar ve virüsler çok küçük canlılardır, gözle görülemezler. Her yerde bulunabilirler ve bazıları hastalık yaparlar. Hijyen kurallarına uymak onlardan korunmayı sağlar.",
+          "detaylar": [
+            "Mikroplar bakterilerdir",
+            "Virüsler daha küçüktür",
+            "Antibiyotik sadece bakteri için",
+            "Temizlik en iyi korunmadır"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "egzersiz",
+      "baslik": "Fiziksel Aktivite",
+      "ikon": "⚽",
+      "renk": "#FF9800",
+      "aciklama": "Düzenli egzersiz sağlıklı yaşamın temelidir.",
+      "altKonular": [
+        {
+          "id": "gunluk_egzersiz",
+          "baslik": "Günlük Egzersiz İhtiyacı",
+          "icerik": "Çocuklar günde en az 60 dakika fiziksel aktivite yapmalıdır. Bu, koşma, yürüme, bisiklet sürme, oyun oynama gibi aktiviteler olabilir.",
+          "detaylar": [
+            "Günde 60 dakika hareket",
+            "Haftada 3 gün yoğun aktivite",
+            "Kas güçlendirici egzersizler",
+            "Esneklik çalışmaları"
+          ]
+        },
+        {
+          "id": "sporun_faydalari",
+          "baslik": "Sporun Sağlığa Faydaları",
+          "icerik": "Düzenli spor kemikleri ve kasları güçlendirir, kalp sağlığını korur, stresi azaltır, uyku kalitesini artırır ve obeziteyi önler.",
+          "detaylar": [
+            "Kalp kasını güçlendirir",
+            "Kemikleri sağlamlaştırır",
+            "Mutluluk hormonu salgılar",
+            "Hastalık riskini azaltır"
+          ]
+        },
+        {
+          "id": "dogru_teknik",
+          "baslik": "Doğru Egzersiz Teknikleri",
+          "icerik": "Spor yapmadan önce ısınma, sonrasında soğuma yapılmalıdır. Doğru duruş ve teknikler sakatlıkları önler. Aşırı yorgunluktan kaçınılmalıdır.",
+          "detaylar": [
+            "10 dakika ısınma yapın",
+            "Uygun ekipman kullanın",
+            "Dinlenme günleri önemli",
+            "Yaralanmada egzersiz bırakın"
+          ]
+        },
+        {
+          "id": "ekran_suresi",
+          "baslik": "Ekran Süresi Yönetimi",
+          "icerik": "Çok fazla ekran başında kalmak göz sağlığına zarar verir, hareketsiz yaşama neden olur. Ekran süresi günde 2 saatle sınırlandırılmalıdır.",
+          "detaylar": [
+            "20-20-20 kuralı: Her 20 dakikada 20 saniye 20 feet uzağa bakın",
+            "Ekran mesafesi 50-70 cm olmalı",
+            "Aydınlatma yeterli olmalı",
+            "Sık sık hareket edin"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "zararli",
+      "baslik": "Zararlı Alışkanlıklar",
+      "ikon": "🚫",
+      "renk": "#F44336",
+      "aciklama": "Zararlı alışkanlıklardan uzak durmak sağlıklı yaşamın anahtarıdır.",
+      "altKonular": [
+        {
+          "id": "sigara_zararlar",
+          "baslik": "Sigara ve Zararları",
+          "icerik": "Sigara akciğer kanseri, kalp hastalıkları ve solunum problemlerine yol açar. İkinci el duman da çok zararlıdır. Sigaraya asla başlamamak önemlidir.",
+          "detaylar": [
+            "4000'den fazla kimyasal içerir",
+            "Akciğer kapasitesini azaltır",
+            "Bağımlılık yapar",
+            "Ömrü kısaltır"
+          ]
+        },
+        {
+          "id": "bagimlil ik",
+          "baslik": "Bağımlılık Yapıcı Maddeler",
+          "icerik": "Alkol, uyuşturucu ve diğer bağımlılık yapıcı maddeler beyin gelişimine zarar verir, bağımlılık yapar ve hayatı mahveder. Bunlardan kesinlikle uzak durulmalıdır.",
+          "detaylar": [
+            "Beyin gelişimini engeller",
+            "Davranış bozuklukları yapar",
+            "Sosyal hayatı bozar",
+            "Geri dönüşü zordur"
+          ]
+        },
+        {
+          "id": "fast_food",
+          "baslik": "Fast Food ve Obezite",
+          "icerik": "Fast food yüksek kalori, yağ, tuz ve şeker içerir. Sık tüketimi obezite, diyabet ve kalp hastalıklarına yol açar. Ev yemekleri tercih edilmelidir.",
+          "detaylar": [
+            "Yüksek kalori içerir",
+            "Besin değeri düşüktür",
+            "Kilo aldırır",
+            "Kronik hastalık riski artırır"
+          ]
+        },
+        {
+          "id": "saglikli_tercihler",
+          "baslik": "Sağlıklı Yaşam Tercihleri",
+          "icerik": "Sağlıklı beslenme, düzenli uyku, spor yapma, stres yönetimi ve zararlı alışkanlıklardan uzak durmak sağlıklı yaşamın temel prensipleridir.",
+          "detaylar": [
+            "7-9 saat uyuyun",
+            "Düzenli egzersiz yapın",
+            "Sebze meyve tüketin",
+            "Pozitif düşünün"
+          ]
+        }
+      ]
+    }
+  ]
+}

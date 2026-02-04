@@ -1,0 +1,84 @@
+{
+  "basarilar": [
+    {
+      "id": "beslenme_uzmani",
+      "isim": "Beslenme Uzmanı",
+      "aciklama": "Tüm beslenme seviyelerini tam puan ile bitir",
+      "ikon": "🥗",
+      "puan": 500,
+      "gizli": false
+    },
+    {
+      "id": "hijyen_kahramani",
+      "isim": "Hijyen Kahramanı",
+      "aciklama": "Tüm hijyen ürünlerini tek seferde topla",
+      "ikon": "🧼",
+      "puan": 300,
+      "gizli": false
+    },
+    {
+      "id": "bagisiklik_savunucusu",
+      "isim": "Bağışıklık Savunucusu",
+      "aciklama": "Hiç mikrop yemeden 5 seviye bitir",
+      "ikon": "🛡️",
+      "puan": 750,
+      "gizli": false
+    },
+    {
+      "id": "spor_devi",
+      "isim": "Spor Devi",
+      "aciklama": "Tüm egzersiz seviyelerini hızlı bitir",
+      "ikon": "💪",
+      "puan": 400,
+      "gizli": false
+    },
+    {
+      "id": "bilgi_avcisi",
+      "isim": "Bilgi Avcısı",
+      "aciklama": "100 farklı sağlık bilgisi oku",
+      "ikon": "📚",
+      "puan": 1000,
+      "gizli": false
+    },
+    {
+      "id": "hiz_ustasi",
+      "isim": "Hız Ustası",
+      "aciklama": "Bir seviyeyi 1 dakikadan kısa sürede tamamla",
+      "ikon": "⚡",
+      "puan": 600,
+      "gizli": false
+    },
+    {
+      "id": "kusursuz_oyuncu",
+      "isim": "Kusursuz Oyuncu",
+      "aciklama": "Bir seviyeyi hiç hasar almadan bitir",
+      "ikon": "💎",
+      "puan": 800,
+      "gizli": false
+    },
+    {
+      "id": "combo_maestro",
+      "isim": "Combo Maestro",
+      "aciklama": "10 ardışık obje toplama combo yap",
+      "ikon": "🔥",
+      "puan": 500,
+      "gizli": false
+    },
+    {
+      "id": "quiz_guresi",
+      "isim": "Quiz Şampiyonu",
+      "aciklama": "Tüm quiz sorularını doğru cevapla",
+      "ikon": "🏆",
+      "puan": 1500,
+      "gizli": true
+    },
+    {
+      "id": "efsane_oyuncu",
+      "isim": "Efsane Oyuncu",
+      "aciklama": "10 seviyenin tamamını bitir",
+      "ikon": "👑",
+      "puan": 5000,
+      "gizli": true
+    }
+  ]
+}
