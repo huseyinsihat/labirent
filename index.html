@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ortaokul öğrencileri için eğlenceli ve eğitici sağlık labiren oyunu">
+    <title>🏥 Sağlık Labireni - Eğitici Oyun</title>
+    
+    <!-- CSS Dosyaları -->
+    <link rel="stylesheet" href="src/css/main.css">
+    <link rel="stylesheet" href="src/css/animations.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+</head>
+<body>
+    <!-- Ana Konteyner -->
+    <div class="main-container">
+        <!-- Ana Menü Ekranı -->
+        <div id="main-menu" class="screen active">
+            <div class="menu-wrapper">
+                <header class="game-header">
+                    <h1 class="game-title">
+                        <span class="title-icon">🏥</span>
+                        SAĞLIK LABİRENİ
+                        <span class="title-icon">🏥</span>
+                    </h1>
+                    <p class="game-subtitle">Eğlenerek Öğren, Sağlıklı Yaşa!</p>
+                </header>
+
+                <nav class="main-nav">
+                    <button class="menu-btn primary" onclick="startGame()">
+                        <span class="btn-icon">🎮</span>
+                        <span class="btn-text">OYUNA BAŞLA</span>
+                    </button>
+                    
+                    <button class="menu-btn secondary" onclick="showTopics()">
+                        <span class="btn-icon">📚</span>
+                        <span class="btn-text">SAĞLIK KONULARI</span>
+                    </button>
+                    
+                    <button class="menu-btn secondary" onclick="showAchievements()">
+                        <span class="btn-icon">🏆</span>
+                        <span class="btn-text">BAŞARILARIM</span>
+                    </button>
+                    
+                    <button class="menu-btn secondary" onclick="showLeaderboard()">
+                        <span class="btn-icon">📊</span>
+                        <span class="btn-text">SKOR TABLOSU</span>
+                    </button>
+                </nav>
+
+                <div class="menu-footer">
+                    <p class="version-info">v1.0.0 | 2026</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Oyun Ekranı -->
+        <div id="game-screen" class="screen">
+            <!-- HUD (Heads Up Display) -->
+            <div class="game-hud">
+                <div class="hud-left">
+                    <div class="health-display">
+                        <span class="hud-icon">💚</span>
+                        <span class="hud-label">Can:</span>
+                        <div class="health-bar">
+                            <div class="health-fill" id="health-fill"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="hud-center">
+                    <div class="score-display">
+                        <span class="hud-icon">⭐</span>
+                        <span class="hud-label">Puan:</span>
+                        <span class="score-value" id="score-value">0</span>
+                    </div>
+                </div>
+                
+                <div class="hud-right">
+                    <div class="timer-display">
+                        <span class="hud-icon">⏱️</span>
+                        <span class="timer-value" id="timer-value">3:00</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Canvas Oyun Alanı -->
+            <div class="game-canvas-wrapper">
+                <canvas id="game-canvas" width="1200" height="800"></canvas>
+            </div>
+
+            <!-- Alt Bilgi Çubuğu -->
+            <div class="game-footer">
+                <div class="level-info">
+                    <span class="footer-icon">📍</span>
+                    <span id="level-name">Seviye 1: Dengeli Beslenme</span>
+                </div>
+                <div class="objective-info">
+                    <span class="footer-icon">🎯</span>
+                    <span id="objective-text">Hedef: 10 sağlıklı besin topla</span>
+                </div>
+                <button class="pause-btn" onclick="togglePause()">
+                    <span id="pause-icon">⏸️</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Seviye Seçim Ekranı -->
+        <div id="level-select" class="screen">
+            <div class="screen-header">
+                <h2>📚 Sağlık Konuları & Seviyeler</h2>
+                <button class="back-btn" onclick="showMainMenu()">↩️ Geri</button>
+            </div>
+            <div id="levels-container" class="levels-grid"></div>
+        </div>
+    </div>
+
+    <!-- Modal: Bilgi Kartı -->
+    <div id="info-modal" class="modal">
+        <div class="modal-content info-card">
+            <div class="modal-header">
+                <h3>
+                    <span class="modal-icon">ℹ️</span>
+                    SAĞLIK BİLGİSİ
+                </h3>
+            </div>
+            <div class="modal-body">
+                <div class="info-icon-large" id="info-icon">🍎</div>
+                <h4 class="info-title" id="info-title">C Vitamini Topladın!</h4>
+                <p class="info-description" id="info-description">
+                    C vitamini bağışıklık sistemini güçlendirir ve hastalıklardan korunmanı sağlar.
+                </p>
+                <div class="info-details">
+                    <p><strong>📌 Kaynak:</strong> <span id="info-source">Turunçgiller, kivi, çilek</span></p>
+                    <p><strong>✅ Günlük ihtiyaç:</strong> <span id="info-daily">75-90 mg</span></p>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn-primary" onclick="closeInfoModal()">DEVAM ET</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal: Seviye Tamamlandı -->
+    <div id="level-complete-modal" class="modal">
+        <div class="modal-content completion-card">
+            <div class="completion-animation">🎉</div>
+            <h3 class="completion-title">SEVİYE TAMAMLANDI!</h3>
+            <div class="completion-stats">
+                <div class="stat-item">
+                    <span class="stat-icon">⭐</span>
+                    <span class="stat-label">Puan</span>
+                    <span class="stat-value" id="final-score">0</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-icon">⏱️</span>
+                    <span class="stat-label">Süre</span>
+                    <span class="stat-value" id="final-time">0:00</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-icon">🏆</span>
+                    <span class="stat-label">Bonus</span>
+                    <span class="stat-value" id="final-bonus">+0</span>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn-secondary" onclick="showMainMenu()">Ana Menü</button>
+                <button class="btn-primary" onclick="nextLevel()">Sonraki Seviye</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal: Oyun Bitti -->
+    <div id="game-over-modal" class="modal">
+        <div class="modal-content game-over-card">
+            <div class="game-over-animation">💔</div>
+            <h3 class="game-over-title">OYUN BİTTİ</h3>
+            <p class="game-over-message">Canın bitti! Tekrar denemek ister misin?</p>
+            <div class="modal-footer">
+                <button class="btn-secondary" onclick="showMainMenu()">Ana Menü</button>
+                <button class="btn-primary" onclick="restartLevel()">Tekrar Dene</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript Dosyaları -->
+    <script src="src/js/utils.js"></script>
+    <script src="src/js/ajax-handler.js"></script>
+    <script src="src/js/score-tracker.js"></script>
+    <script src="src/js/player.js"></script>
+    <script src="src/js/collision.js"></script>
+    <script src="src/js/items.js"></script>
+    <script src="src/js/enemies.js"></script>
+    <script src="src/js/maze-generator.js"></script>
+    <script src="src/js/game-engine.js"></script>
+    <script src="src/js/ui-manager.js"></script>
+    <script src="src/js/quiz-manager.js"></script>
+    <script src="src/js/audio-manager.js"></script>
+    <script src="src/js/app.js"></script>
+</body>
+</html>
